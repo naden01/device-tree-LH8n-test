@@ -145,9 +145,6 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     libhwc2onfbadapter
 
-# Dolby
-$(call inherit-product, vendor/sony/dolby/setup.mk)
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
